@@ -18,7 +18,7 @@
 
 #include <Stepper.h>
 
-const int stepsPerRevolution = 200;  // change this to fit the number of steps per revolution
+const int stepsPerRevolution = 3200;  // change this to fit the number of steps per revolution
 // for your motor
 
 
@@ -35,7 +35,7 @@ void loop() {
   // read the sensor value:
   int sensorReading = analogRead(A0);
   // map it to a range from 0 to 100:
-  int motorSpeed = map(sensorReading, 0, 1023, 0, 100);
+  int motorSpeed = map(sensorReading, 0, 1023, 0, 200);
   // set the motor speed:
   if (motorSpeed > 0) {
     myStepper.setSpeed(motorSpeed);
