@@ -35,7 +35,7 @@ void loop() {
   // read the sensor value:
   int sensorReading = analogRead(A0);
   // map it to a range from 0 to 100:
-  int motorSpeed = map(sensorReading, 0, 1023, 0, 200);
+  int motorSpeed = map(sensorReading, 0, 1023, 0, 300);
   // set the motor speed:
   if (motorSpeed > 0) {
     myStepper.setSpeed(motorSpeed);
