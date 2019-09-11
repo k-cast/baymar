@@ -1,7 +1,7 @@
 /*
- Stepper Motor Control - speed control
+ Fill Station Stepper Motor Controller 
 
- This program drives a stepper motor who's speed can be controlled by a potentiometer.
+ This program drives a stepper motor with speed can be controlled by a potentiometer.
  The motor is attached to digital pins 8 - 11 of the Arduino.
  A potentiometer is connected to analog input 0.
 
