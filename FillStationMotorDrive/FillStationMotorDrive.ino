@@ -1,7 +1,7 @@
 /*
  Stepper Motor Control - speed control
 
- This program drives a unipolar or bipolar stepper motor.
+ This program drives a stepper motor who's speed can be controlled by a potentiometer.
  The motor is attached to digital pins 8 - 11 of the Arduino.
  A potentiometer is connected to analog input 0.
 
@@ -9,10 +9,6 @@
  the faster the motor speed. Because setSpeed() sets the delay between steps,
  you may notice the motor is less responsive to changes in the sensor value at
  low speeds.
-
- Created 30 Nov. 2009
- Modified 28 Oct 2010
- by Tom Igoe
 
  */
 
